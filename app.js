@@ -1,5 +1,4 @@
-const express = require("express");
-const path = require("path");
+const express = require("express")
 const { connectDB } = require("./db/db");
 const uRoute = require('./routes/userr')
 const pRoute = require('./routes/profiler')
